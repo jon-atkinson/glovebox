@@ -1,0 +1,10 @@
+[package]
+name = "glovebox"
+version = "0.0.2"
+edition = "2024"
+description = "Sandboxed Claude Code environments driven from zellij"
+license = "Apache-2.0"
+repository = "https://github.com/jon-atkinson/glovebox"
+readme = false
+
+[dependencies]

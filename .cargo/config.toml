@@ -1,0 +1,4 @@
+# Pin the system linker so an active conda env (which ships its own gcc and
+# sets LDFLAGS/--sysroot) cannot inject its glibc into Rust binaries.
+[target.x86_64-unknown-linux-gnu]
+linker = "/usr/bin/cc"
